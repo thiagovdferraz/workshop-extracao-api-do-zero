@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "workshop-extracao-de-api-do-zero"
+version = "0.1.0"
+description = ""
+authors = ["Thiago Ferraz <thiagovdferraz@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+psutil = "^6.1.0"
+selenium = "^4.27.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
