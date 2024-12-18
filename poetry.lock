@@ -378,6 +378,17 @@ files = [
 ]
 
 [[package]]
+name = "tinydb"
+version = "4.8.2"
+description = "TinyDB is a tiny, document oriented database optimized for your happiness :)"
+optional = false
+python-versions = "<4.0,>=3.8"
+files = [
+    {file = "tinydb-4.8.2-py3-none-any.whl", hash = "sha256:f97030ee5cbc91eeadd1d7af07ab0e48ceb04aa63d4a983adbaca4cba16e86c3"},
+    {file = "tinydb-4.8.2.tar.gz", hash = "sha256:f7dfc39b8d7fda7a1ca62a8dbb449ffd340a117c1206b68c50b1a481fb95181d"},
+]
+
+[[package]]
 name = "trio"
 version = "0.27.0"
 description = "A friendly Python library for async concurrency and I/O"
@@ -475,4 +486,4 @@ h11 = ">=0.9.0,<1"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "fc6a16eebb85a19aef3368b82f16ce0097dce999004b335d8944adf80ddf3f56"
+content-hash = "8c7a993cd4346df31bf0a563c24e945df3d6b8aae295c7a64924da46add1f83c"
